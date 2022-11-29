@@ -1,0 +1,52 @@
+{
+    "name": "player",
+    "maps": [
+        {
+            "name": "player",
+            "id": "59911666-6786-4a28-b075-176865918151",
+            "actions": [
+                {
+                    "name": "move",
+                    "type": "Button",
+                    "id": "be8f2332-1889-422f-983b-9921ab066a06",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "jump",
+                    "type": "Button",
+                    "id": "703f85cb-5bb3-4346-8929-a4217c4ced6d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3c11e1eb-8983-4902-91fb-bdf718180306",
+                    "path": "<AndroidJoystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "97d6af55-6a72-46f1-a2a2-b63dec76458b",
+                    "path": "<Touchscreen>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
