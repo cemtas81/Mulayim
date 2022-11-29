@@ -23,13 +23,14 @@ public class CountTimer : MonoBehaviour
    
       
     }
+    
     void OnEnable()
     {
         currentTime=startingTime;
         canCount = true;
-     
+        Debug.Log("counting");
     }
-
+    
     
     void Update()
     {
